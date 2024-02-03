@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio Website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--matrix-->
+    <canvas id="c"></canvas>
+    <script src="puli.js"></script>
+    <!--matrix-->
+    <!-- Navbar Start -->
+    <header class="p-4">
+      <nav class="navbar navbar-expand-lg container fixed-top">
+        <div class="container-fluid" id="Navbar">
+          <a class="navbar-brand" href="#Profile">Profile</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#About"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Skill">Skill</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Profile -->
+    <section id="Profile" class="container mt-5">
+      <div>
+        <div class="section-title p-4">
+          <h1>Profile</h1>
+          <hr />
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img
+                 src="E:\portfolio\suri.jpg"/>
+            
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Full Stack Web Developer</h3>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Name:</strong>
+                    <span>Aravind Suri</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>City:</strong>
+                    <span>jiyyammavalasa village, AP</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Phone:</strong>
+                    <span>+91 6281202953</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Date Of Birth:</strong>
+                    <span>13 may 2002</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Age:</strong>
+                    <span>22</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right">Studyingn:</i>
+                    <strong>B.Tech</strong> <span>3rd year</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                    <span>aravindsuri447@gmail.com</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Freelance:</strong>
+                    <span style="color: rgb(255, 255, 255)">Available</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--                Section Skills -->
+            <span class="skill">
+              <!--                    Instagram-->
+              <a href="https://www.instagram.com/suri_aravind143?igsh=MWpobGlpdG1sdW1pbQ==" target="_blank"
+                ><button
+                  type="button"
+                  class="btn btn-info col-md-2 col-sm-12 col-lg-3"
+                >
+                  <i class="fab fa-Instagram" aria-hidden="true"></i> Instagram
+                </button></a
+              >
+               <!--                    Linkedin-->
+               <a href="https://www.linkedin.com/in/suri-aravind-5b9911251" target="_blank"
+               ><button
+                 type="button"
+                 class="btn btn-primary col-md-4 col-sm-12 col-lg-3"
+               >
+                 <i class="fab fa-Linkedin" aria-hidden="true"></i> Linkedin
+               </button></a
+             >
+             <!--                    Telegram-->
+             <a href="https://Telegram.com/Suri Aravind" target="_blank"
+             ><button
+               type="button"
+               class="btn btn-primary col-md-4 col-sm-12 col-lg-3"
+             >
+               <i class="fab fa-telegram" aria-hidden="true"></i> Telegram
+             </button></a
+           >
+            <!--                    Github-->
+            <a href="https://www.Github.com/aravind447" target="_blank"
+            ><button
+              type="button"
+              class="btn btn-info col-md-2 col-sm-12 col-lg-3"
+            >
+              <i class="fab fa-Github" aria-hidden="true"></i> Github
+            </button></a
+          >
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Profile End-->
+
+    <!--Download CV-->
+       <section id="Download CV" class="section-box container mt-4">
+        <div class="text">Download RESUME</div>
+        <div class="icon-cv"><a href="Resume.aravind1.pdf" alt="Marina Marques CV" target="_blank"><span class="fa fa-arrow-circle-down" aria-hidden="true"></span></a></div>
+      </div>
+    </div>
+    </section>
+  <!--Download CV End-->
+
+    <!-- About Section -->
+    <section id="About" class="section-box container mt-4">
+      <div>
+        <div class="section-title p-4">
+          <h1>About</h1>
+          <hr />
+          <p class="p-3">
+            Hi I'm Aravind , ALways Trying To Learn New Things & New Program
+            Languages , I Start Developing Since 2023 With Front-End Languages
+            For Now , I Just , Doing Projects For Being Under Developing
+            Challanges And Creating A Good Resume For Myself , At All I Living
+            Code Every Second OF My Life ...
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Education Section -->
+    <section id="Education" class="section-box container mt-4">
+        <div>
+          <div class="section-title p-4">
+            <h1>Education</h1>
+            <hr />
+            <p class="p-3">
+              <span>2014-2019:</span>i completed my secondry school in this  time. 
+            </p>
+            <br />
+            <p class="p-3">
+              <span>2019-2021 :</span> Graduate In Intermediate and branch of mpc
+                   and i can learn how can we develop the apps and frame works using back-end & front-end
+                   with good codeing.
+                </p>
+            <br />
+            <p class="p-3">
+              <span>2021-2025 :</span> This is my new start in Developing and i start
+              Front-End Web Develop at the first year  & Start Back-End
+              Web Develop at the Second  year in Teran Centeral
+              Department To Be Going To Full Stack Web Developer .
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Education SEction End -->
+    <!-- Skill Section -->
+    <section id="Skill" class="section-box container mt-4">
+      <div>
+        <div class="section-title p-4">
+          <h1>Skills</h1>
+          <hr />
+
+          <div class="row">
+            <div class="col-12">
+              <h3 style="text-align: center">
+                Languages Libraries & FrameWorks ...
+              </h3>
+            </div>
+            <div class="col-6">
+              <div class="progress">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Success example"
+                  style="width: 99%"
+                  aria-valuenow="100"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>HTML</span> <i class="val"> 99%</i>
+              <div class="progress mt-2">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Info example"
+                  style="width: 99%"
+                  aria-valuenow="99"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>CSS</span> <i class="val"> 99%</i>
+              <div class="progress mt-2">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Warning example"
+                  style="width: 80%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>JavaScript</span> <i class="val"> 80%</i>
+              <div class="progress mt-2">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Danger example"
+                  style="width: 85%"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>JQuery</span> <i class="val"> 85%</i>
+              <div class="progress mt-2">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Danger example"
+                  style="width: 79%"
+                  aria-valuenow="79"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>PHP</span> <i class="val"> 79%</i>
+            </div>
+            <!--                part 2 col-->
+            <div class="col-6">
+              <div class="progress">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Success example"
+                  style="width: 90%"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>Bootstrap</span> <i class="val"> 90%</i>
+              <div class="progress mt-2">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Info example"
+                  style="width: 70%"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>VueJs</span> <i class="val"> 70%</i>
+              <div class="progress mt-2">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Warning example"
+                  style="width: 92%"
+                  aria-valuenow="92"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>Git</span> <i class="val"> 92%</i>
+              <div class="progress mt-2">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Danger example"
+                  style="width: 80%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>Semantic-Ui</span> <i class="val"> 80%</i>
+              <div class="progress mt-2">
+                <div
+                  class="progress-bar bg-dark"
+                  role="progressbar"
+                  aria-label="Danger example"
+                  style="width: 82%"
+                  aria-valuenow="82"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span>Laravel</span> <i class="val"> 82%</i>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <h1>INTERNSHIP</h1>
+        <ul style="padding:10px;margin:10px 0px 0px -10px">
+            <li>Cyber Security at Supraja Technology</li>
+            <li> IBM"WEB DEVELOPMENT"</li>
+        </ul>
+        <h1>PROJECTS</h1>
+        <ul style="padding:10px ;margin:10px 0px 0px -10px">
+            <li>Portfolio (HTML, CSS, js, Bootstraps)</li>
+            <li>Landing page (HTML, CSS,js)</li>
+            <li>online code editor</li>
+        </ul >
+		<h1>CERTIFICATIONS</h1>
+		<ul style="padding:10px ;margin:10px 0px 0px -10px">
+			<li>basics of python in infosys springboard</li>
+			<li>Advanced python in infosys springboard<li>
+			<li>Cpp in Geek for Geeks</li>
+			<li>Django</li>
+		</ul>
+        </section>
+    <!-- Skill SEction End -->
+
+    <!--Btn To Top-->
+    <section>
+      <div class="text-center mt-5">
+        <button
+          class="mb-5"
+          onclick="topFunction()"
+          id="myBtn"
+          title="Go to top"
+        >
+          Go To Top
+        </button>
+      </div>
+      <script>
+        // Get the button
+        let mybutton = document.getElementById('myBtn');
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+          ) {
+            mybutton.style.margin = 'auto';
+          }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+    </section>
+    <!--Btn to Top End-->
+
+    <!-- Footer-->
+    <footer id="footer" class="container">
+      <div class="container">
+        <h3>Contact Me</h3>
+        <div class="social-links">
+          <a
+           href="https://aravindsuri447@gmail.com" target="_blank" class="gmail"
+            ><i class="fab fa-google"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/suri-aravind-5b9911251"
+            target="_blank"
+            class="Linkdin"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.Github.com/in/aravind447"
+            target="_blank"
+            class="Github"
+            ><i class="fab fa-Github"></i
+          ></a>
+          <a
+            href="https://www.Telegram.com/Suri Aravind"
+            target="_blank"
+            class="telegram"
+            ><i class="fab fa-telegram"></i
+          ></a>
+          <a
+          href="https://www.instagram.com/suri_aravind143?igsh=MWpobGlpdG1sdW1pbQ=="
+          target="_blank"
+          class="instagram"
+          ><i class="fab fa-Instagram"></i
+        ></a>
+        </div>
+        <div class="copyright">
+          2024 © Portfolio <strong><span>Aravind Suri</span></strong
+          >. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by
+          <a href="https://github.com/Suri Aravind" target="_blank">Aravind</a>
+        </div>
+      </div>
+    </footer>
+    <!--Footer And-->
+    <script src="script.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js'></script>
+  </body>
+</html>

@@ -48,6 +48,11 @@ function draw()
     }
 }
 function updateVisitCount() {
+    ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
+    ctx.fillRect(0, 0, c.width, c.height);
+
+    ctx.fillStyle = "#0F0"; //green text
+    ctx.font = font_size + "px arial";
       let count = localStorage.getItem('visitCount') || 0;
       count = parseInt(count) + 1;
       localStorage.setItem('visitCount', count);

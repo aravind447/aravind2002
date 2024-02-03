@@ -10,7 +10,7 @@
       background-color:green;
       font-family: Arial, sans-serif;
       text-align: center;
-      padding: 30px;
+      padding: 50px;
     }
     #visit-count {
       font-size: 24px;
@@ -24,7 +24,7 @@
     font-family: 'Share Tech Mono', monospace;
 }
 body{
-    background-color: black;
+    background-color: white;
     height: 1500px;
 }
 h1 {
